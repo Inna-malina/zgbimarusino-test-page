@@ -1,0 +1,145 @@
+.phone-number {
+  display: flex;
+  gap: 10px;
+}
+
+.side-menu > li > a:before {
+  color: #7b8e9a;
+  position: absolute;
+
+  content: "\003E";
+  font-size: 8px;
+  right: 12px;
+  font-weight: normal;
+  top: 12px;
+}
+
+.side-menu > li.active.child > a:before {
+  content: "\003E";
+}
+
+.phone-number .inna-block {
+  background: #e65100;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+}
+
+.svg-phone-number {
+  display: block;
+  fill: white;
+  width: 12px;
+  height: 12px;
+}
+
+.blink .zoom {
+  background: #e65100;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.zoom svg {
+  fill: white;
+  font-size: 20px;
+}
+
+.ya-share2__list {
+  padding-left: 0px;
+  display: flex;
+  gap: 5px;
+}
+.soсial {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+.vk {
+  background: url("./images/6.svg") #0077ff;
+}
+
+.twitter {
+  background: url("./images/1.svg") #00aced;
+}
+
+.soсial-phone {
+  background: url("./images/2.svg") #7b519d;
+}
+.whatsapp {
+  background: url("./images/3.svg") #65bc54;
+}
+.odnoklassniki {
+  background: url("./images/4.svg") #ff7700;
+}
+.moimir {
+  background: url("./images/5.svg") #168de2;
+}
+
+.back-url {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone a,
+.email a {
+  display: block;
+}
+
+.svg-phone-footer,
+.email-footer {
+  fill: #969ba5;
+  font-size: 12px;
+}
+
+.back-url svg {
+  fill: #e65100;
+  font-size: 22px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 0px 50px 0px;
+  box-sizing: border-box;
+}
+
+.card-box {
+  width: 30%;
+  border: 1px solid #e2e7eb;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-box p {
+  margin: 0px 0px 5px 0px;
+}
+
+.card-box__img {
+  padding: 0px 0px 10px 0px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-weight: 700;
+}
